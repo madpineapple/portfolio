@@ -17,7 +17,7 @@ class App extends Component {
       <div className="container ">
         <div >
           <h1 className='greeting'>Charles Daoust
-          Software Developer</h1>
+          software Developer</h1>
           <div className="particles">< ParticleComponent /></div>
           </div>
         </div>
