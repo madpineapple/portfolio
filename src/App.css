@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./components/pics/space_nebula_constellation_104640_1680x1050.jpg') ;
+}
+
+.greeting{
+  padding-top:25%;
+  width:100%;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  color: orangered;
+}
+
+/* Landing page */
+.section-a{
+  min-height: 100vh;
+  }
+/* .section-a .container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+ul,li,a {
+    text-align: center;
+}
+
+
+/* media queries */
+@media(max-width: 700px){
+  .section-a .container{
+    padding-top: 40%;
+    
+  }
+.particles{
+  display:none;
+}
+  
+}
+ /* About section */
+.section-b{
+  min-height: 100vh;
+  text-align: center;
+  background-color: ghostwhite;
+}
+.intro{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+  text-decoration: underline;
+}
+.about-icons{
+  padding-top: 50px;
+  color:blue;
+}
+
+/* Project section */
+.section-c{
+  /* min-height: 100vh; */
+  text-align: center;
+  background-color: #DCDCDC;
+  padding-bottom: 10%;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gallery a:first-child {
+ grid-row-start: 1/1;
+ grid-column-start: 1/1;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+footer{
+  padding-top: 20%;
+  background-color: grey;
+}
