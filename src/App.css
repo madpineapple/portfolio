@@ -1,51 +1,70 @@
+
+/* Website styling */
 body {
   margin: 0;
   padding: 0;
-  background-image: url('./components/pics/space_nebula_constellation_104640_1680x1050.jpg') ;
+ 
 }
-
+/* Landing page css */
 .greeting-top{
   padding-top:15%;
   width:100%;
-  text-align: center;
+  text-align: left;
+  text-shadow: 2px 2px #626871;
   font-family: 'Righteous', cursive;
-  color: orangered;
+  color:white;
   font-size: 500%;
+  padding-left: 10px;
 }
 .greeting-middle{
   width:100%;
-  text-align: center;
+  text-align: left;
+  text-shadow: 2px 2px #626871;
   font-family: 'Righteous', cursive;
-  color: orangered;
+  color: white;
   font-size: 500%;
+  padding-left: 10px;
 }
 .greeting-bottom{
   width:100%;
-  text-align: center;
+  text-align: left;
+  text-shadow: 2px 2px #626871;
   font-family: 'Righteous', cursive;
-  color: orangered;
+  color: white;
+  padding-left: 10px;
 }
 .wrapper{
   text-align: center;
 }
 .button{
+  position: absolute;
   background-color: orangered;
   color:#FFF;
+  left:10px;
 }
 .button:hover{
-  
-    background-color: yellow;
-  
+    background-color:#286E33;
 }
 #work{
   color: white;
   text-align: center;
 }
 
-/* Landing page */
-.section-a{
-  min-height: 100vh;
+.half1{
+  min-height: 80vh;
+  background-image: radial-gradient(
+    circle at top right,
+    #c79b0d,
+    #e6f704 , 
+    #1A6CE7 50%
+     );
   }
+  
+.half2{
+  min-height: 20vh;
+  background-color:#16AA09;
+}
+
 
 ul,li,a {
     text-align: center;
@@ -57,10 +76,6 @@ ul,li,a {
     padding-top: 10%;
   }
 
-.particles{
-  display:none;
-}
-  
 }
  /* About section */
 .section-b{
@@ -99,7 +114,6 @@ ul,li,a {
   position: relative;
   width: 500px;
   height:500px;
-  background: chartreuse;
   margin: 10px;
   box-sizing: border-box;
   display: inline-block;
@@ -122,7 +136,6 @@ img{
   padding-top: 20px;
   color: white
 }
-
 
 footer{
   padding-top: 10%;

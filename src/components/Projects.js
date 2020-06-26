@@ -1,11 +1,24 @@
 import React from 'react';
 import restaurant from './pics/restaurant.png';
-import store from './pics/cupcake_website.png'
-
+import store from './pics/cupcake_website.png';
+import zimGun from './pics/zimGunwork.png';
 function Project(){
     return(
     <div className ="container">
      <div className="gallery">
+     <div class="box">
+        <img id='pic' src={zimGun} alt="zimGun"/> 
+         <div class ="text"> 
+              <h2> ZimmermanGunworks</h2>
+              <p> Borchure style website I created for 
+                  a small business called ZimmermanGunworks.
+                  I created it using React, Node.js, and NodeMailer.
+                </p>
+                <a href="http://www.zimmermangunworks.com/">
+                    Click here to view  website</a>
+              </div>
+         </div>
+
          <div class="box">
               <img id='pic' src={restaurant} alt="restaurant"/>
               <div class ="text"> 

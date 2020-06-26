@@ -3,7 +3,6 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
-import ParticleComponent from "./components/layout/ParticleComponent";
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +14,7 @@ class App extends Component {
     
     <div >
       <section className ="section-a" id= "section-a">
-      <div className="container ">
+      <div className="half1">
         <div >
           <ScrollAnimation animateIn="zoomInUp" >
           <h1 className='greeting-top'>Hello I'm</h1>
@@ -34,8 +33,10 @@ class App extends Component {
             </btn>
           </div>
           </ScrollAnimation>
-          <div className="particles">< ParticleComponent /></div>
           </div>  
+        </div>
+       
+        <div className="half2">
         </div>
       </section >
       <Navbar/>
