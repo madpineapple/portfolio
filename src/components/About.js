@@ -7,6 +7,9 @@ function About(){
   return( 
     <div className="container" style={{textAlign:"center"}}>
     <div className='row' >
+    <p style={{fontSize:'20px'}}>
+                 Do you need a software developer to develop a custom web, desktop, or mobile application for your small business? If so, I'd be more than happy to develop your app for you! 
+                </p>
      <div className="col">
          <ScrollAnimation animateIn="bounceInRight">
          <FontAwesome
@@ -15,11 +18,9 @@ function About(){
         size="4x"
         style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
       />
-             <h2>Responsive</h2>
-             <p>Customers and clients visit websites on a wide
-               variety of devices, all of which have different
-               screen sizes. Fortunatly I design my apps to work
-               on all screen sizes!
+             <h2>Front End Development</h2>
+             <p>I have experience with multiple front end languages and tools to include HTML, CSS,
+               Javascript, Node.js, and React.
              </p>
          </ScrollAnimation>
      </div>
@@ -27,15 +28,12 @@ function About(){
          <ScrollAnimation animateIn="bounceInRight">
          <FontAwesome
         className="about-icons"
-        name="rocket"
+        name="code"
         size="4x"
         style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
       />
-             <h2>Dynamic</h2>
-             <p>Having a website that can retrieve and store
-               information in a database is crucial in many types of 
-               websites. All my projects listed below use some form of
-               database as a back end.
+             <h2>Back End Development</h2>
+             <p>As part of my studies at Champlain College I got a ceritficate in C++. Furthermore I have studied other back end languages such as Python, C#, and SQL.
              </p>
          </ScrollAnimation>
      </div>
@@ -43,36 +41,17 @@ function About(){
          <ScrollAnimation animateIn="bounceInRight">
          <FontAwesome
         className="about-icons"
-        name="book"
+        name="wrench"
         size="4x"
         style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
       />
-             <h2>Always Learning</h2>
-             <p>Software development is a vast field and it is 
-               importnat for developers to keep learning new technologies
-               and to use new tools. Since college I have been devolping 
-               apps in a variety of languages ranging from C++ to JavaScript
-               to Python! Checkout the project section below for a sample of
-                my work.
+             <h2>App Repair</h2>
+             <p>Have you already started creating your own website or app and found that you're in over your head?
+               No worries, I'd be happy to look at your project and work with you to make your application run like a charm!
              </p>
          </ScrollAnimation>
      </div>
-     <div className="col">
-         <ScrollAnimation animateIn="bounceInRight">
-         <FontAwesome
-        className="about-icons"
-        name="user"
-        size="4x"
-        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-      />
-             <h2>Contact me</h2>
-             <p>
-               If you have any questions about my current availibilty
-               or want to contact me, please feel free to visit my linkedin
-               page at:<a href='https://www.linkedin.com/in/charles-daoust-5a043b165/'>https://www.linkedin.com/in/charles-daoust-5a043b165/</a>
-             </p>
-         </ScrollAnimation>
-     </div>
+   
     </div>
     </div>)
 }
