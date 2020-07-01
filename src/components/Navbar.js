@@ -19,7 +19,14 @@ function About(){
           <Nav.Link href="https://www.linkedin.com/in/charles-daoust-5a043b165/">
         <FontAwesome
         name="linkedin"
-        size="2x"
+        size="1x"
+        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+      />
+      </Nav.Link>
+      <Nav.Link href="https://github.com/madpineapple">
+        <FontAwesome
+        name="github"
+        size="1x"
         style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
       />
       </Nav.Link>

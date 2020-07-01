@@ -35,7 +35,7 @@ function Reviews(){
                />
                
                <h2>Zimmerman Gunworks</h2>
-                <p>"I was having a hard time building a website for my small business and kept running into issues. When Charles offered to resolve my website issues I took him on his offer and within a few days he had my website up and running! If you are getting frustrated trying to build your website on your own I highly recommend letting Charles have a crack at it!"
+                <p>Waiting on review. Please check in later!
                 </p>
                 
                </ScrollAnimation></div>
