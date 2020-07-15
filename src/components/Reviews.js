@@ -35,7 +35,9 @@ function Reviews(){
                />
                
                <h2>Zimmerman Gunworks</h2>
-                <p>Waiting on review. Please check in later!
+                <p>
+                    Charles Daoust built my small business a great website that really
+                    helps customers get a good feel for my company. I have been very happy with his design, input and attention to detail. I highly recommend Charles Daoust for your next web project.
                 </p>
                 
                </ScrollAnimation></div>
