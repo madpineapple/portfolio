@@ -2,10 +2,22 @@ import React from 'react';
 import restaurant from './pics/restaurant.png';
 import store from './pics/cupcake_website.png';
 import zimGun from './pics/zimGunwork.png';
+import schoolAdmin from './pics/schoolAdminWebsite.png';
 function Project(){
     return(
     <div className ="container">
      <div className="gallery">
+     <div class="box">
+        <img id='pic' src={schoolAdmin} alt="schoolAdmin"/> 
+         <div class ="text"> 
+              <h2>School Admin Projet</h2>
+              <p> A CRUD style website created with ASP.Net and SQl that allows a school adminstrator to create, update, and delete data on students, staff, and classes. The admin can login using identity framework, view and later data, and view a graph detailing student progress.
+                </p>
+                <a href="https://github.com/madpineapple/schoolAdminProject">
+                    Click here to view  Github repository</a>
+              </div>
+         </div>
+
      <div class="box">
         <img id='pic' src={zimGun} alt="zimGun"/> 
          <div class ="text"> 
