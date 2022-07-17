@@ -3,7 +3,6 @@
 body {
   margin: 0;
   padding: 0;
- 
 }
 /* Landing page css */
 .greeting-top{
@@ -14,7 +13,6 @@ body {
   font-family: 'Righteous', cursive;
   color:white;
   font-size: 500%;
-  
 }
 .greeting-middle{
   width:100%;
@@ -49,7 +47,6 @@ body {
 }
 .section-a{
   min-height: 100vh;
-
 }
 .background{
   position: absolute;
@@ -61,7 +58,6 @@ body {
   width: 100%;
   height: 100%;
 }
-
 
 ul,li,a {
     text-align: center;
