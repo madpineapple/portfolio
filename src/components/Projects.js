@@ -20,6 +20,7 @@ function Project(){
               <p> Borchure style website I created for 
                   a small business called ZimmermanGunworks.
                   I created it using React, Node.js, and NodeMailer.
+                  Unfortunatly the owner decided he didn't need a business so the website was shutdown
                 </p>
               </div>
          </div>
