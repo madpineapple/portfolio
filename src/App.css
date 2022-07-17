@@ -54,7 +54,7 @@ body {
 .background{
   position: absolute;
   filter: blur(4px);
-  background-image: url('./components/pics/programming.png');
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
