@@ -1,6 +1,7 @@
 {
   "name": "try_again",
   "version": "0.1.0",
+  "main":"server.js",
   "private": true,
   "engines": {
     "node": "10.15.3",
