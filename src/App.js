@@ -20,7 +20,7 @@ class App extends Component {
       <div className='background'></div>
         <div className="foreground">
           <ScrollAnimation animateIn="zoomInUp" >
-          <h1 className='greeting-top'>Hello I'm</h1>
+          <h1 className='greeting-top'>Hello everyone, I'm</h1>
           </ScrollAnimation>
           <ScrollAnimation animateIn="zoomInLeft" >
           <h1 className='greeting-middle'>Charles Daoust </h1>
@@ -32,7 +32,7 @@ class App extends Component {
 
           <div class="wrapper">
           <btn type="button" class="button" >
-              <a className="nav-link" id="work" href="#Work & Personal projects">Check out my work below! ↓</a>
+              <a className="nav-link" id="work" href="#Work & Personal projects">Please check out my work below! ↓</a>
             </btn>
           </div>
           </ScrollAnimation>
