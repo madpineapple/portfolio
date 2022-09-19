@@ -32,7 +32,7 @@ class App extends Component {
 
           <div class="wrapper">
           <btn type="button" class="button" >
-              <a className="nav-link" id="work" href="#Work & Personal projects">Please check out my work below! ↓</a>
+              <a className="nav-link" id="work" href="#Work & Personal projects">Please ccd heck out my work below! ↓</a>
             </btn>
           </div>
           </ScrollAnimation>
