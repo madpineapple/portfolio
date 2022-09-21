@@ -19,26 +19,16 @@ class App extends Component {
       <section className ="section-a" id= "Home">
       <div className='background'></div>
         <div className="foreground">
-          <ScrollAnimation animateIn="zoomInUp" >
           <h1 className='greeting-top'>Hello everyone, I'm</h1>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="zoomInLeft" >
           <h1 className='greeting-middle'>Charles Daoust </h1>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="zoomInDown" >
           <h1 className='greeting-bottom'>Software Developer</h1>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="bounce">
 
           <div class="wrapper">
           <btn type="button" class="button" >
               <a className="nav-link" id="work" href="#Work & Personal projects">Please ccd heck out my work below! ↓</a>
             </btn>
           </div>
-          </ScrollAnimation>
           </div>  
-        
-       
       </section >
       
       <section className="section-b"id= "About">
